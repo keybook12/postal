@@ -59,7 +59,7 @@ workers:
   threads: 4
 
 smtp_server:
-  port: 25
+  port: 2525
   bind_address: '::'
   tls_enabled: false
   tls_certificate_path: # Defaults to config/smtp.cert
